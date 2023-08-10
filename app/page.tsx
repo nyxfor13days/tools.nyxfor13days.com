@@ -1,9 +1,9 @@
-import { ModeToggle } from "@/components/switch-theme";
+import { Header } from "@/components/header";
 
 export default function Home() {
   return (
-    <main>
-      <ModeToggle />
+    <main className="container">
+      <Header />
     </main>
   );
 }
